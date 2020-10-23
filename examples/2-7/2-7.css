@@ -1,0 +1,57 @@
+*{
+	
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: serif; 
+	font-style: normal;/*默認:normal;*/
+	font-weight: 500;/*字形粗細*//*默認:normal;*/
+	font-variant: small-caps;/*小的大寫*/
+	font-size: 2.4vh;
+	line-height: 3.6vh;
+	/*font: normal small-caps 500 2.4vh/3.6vh serif;*//*也可以全寫在一起*/
+}
+
+/*p{
+	
+	color:white;
+	padding: 5px 0 10;
+	margin: 5px 0;
+
+}
+*/
+
+article{
+	background-color: gray;
+	margin: 5px 0;
+	pading: 10px 5px;
+}
+
+h1{
+	font-size: 4.8vh;/*字體調整,行高也要記得調*/
+	line-height: 7.2vh;
+	/*font-family: sans-serif;*/
+	color:brown;
+}
+
+h2{
+	font-size: 3.6vh;/*字體調整,行高也要記得調*/
+	line-height: 5.4vh;/*3.6*1.5*/
+	/*font-family: sans-serif;*/
+	font-style: normal;
+	color:brown;
+
+}
+
+h1,h2{
+	font-family: sans-serif;
+}可以同時做設定
+
+section{
+	margin:3px;
+
+}
+
